@@ -1,0 +1,16 @@
+CANAL DE YOTUBE: javacode 503
+Seguridad WEB desde el Servidor Glassfish
+
+
+
+krodriguez	12345	administrador
+jmoran		abcde	usuario	
+agomez		gomez123	administrador
+
+base de dato:bdlogin
+pool: loginPool
+--JNDI: jdbc/loginbd
+JNDI: jdbc/bdloginpool
+--REALM: realmLoginbd
+REALM: realBdLoginPool
+JAAS: jdbcRealm
